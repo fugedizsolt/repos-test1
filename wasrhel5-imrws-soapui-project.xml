@@ -2360,44 +2360,6 @@
       </web:setStatus>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.server.imr.img.erste.user/IMRService/setStatusRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="updateDocumentDKRId" bindingOperationName="updateDocumentDKRId" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://wasrhel5.in.user.hu:7001/imr/IMRServiceService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.server.imr.img.erste.user/">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <web:updateDocumentDKRId>
-         <!--Optional:-->
-         <arg0>
-            <!--Optional:-->
-            <endUserName>?</endUserName>
-            <!--Optional:-->
-            <techUserName>?</techUserName>
-            <!--Optional:-->
-            <techUserPassword>?</techUserPassword>
-            <!--Optional:-->
-            <userName>?</userName>
-         </arg0>
-         <!--Optional:-->
-         <arg1>?</arg1>
-         <!--Optional:-->
-         <arg2>
-            <!--Optional:-->
-            <barcode>?</barcode>
-            <!--Optional:-->
-            <barcodeFunction>?</barcodeFunction>
-            <!--Optional:-->
-            <content>cid:938041734682</content>
-            <!--Optional:-->
-            <mimeType>
-               <!--Optional:-->
-               <extensions>?</extensions>
-               <!--Optional:-->
-               <firstExtension>?</firstExtension>
-               <!--Optional:-->
-               <mimeType>?</mimeType>
-            </mimeType>
-            <numOfPages>?</numOfPages>
-            <startPage>?</startPage>
-         </arg2>
-      </web:updateDocumentDKRId>
-   </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.server.imr.img.erste.user/IMRService/updateDocumentDKRIdRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="updateDocumentIndexesForBarCode" bindingOperationName="updateDocumentIndexesForBarCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://wasrhel5.in.user.hu:7001/imr/IMRServiceService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.server.imr.img.erste.user/">
    <soapenv:Header/>
    <soapenv:Body>
